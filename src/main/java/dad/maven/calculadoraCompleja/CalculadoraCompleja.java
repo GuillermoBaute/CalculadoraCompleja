@@ -81,6 +81,38 @@ public class CalculadoraCompleja extends Application {
 		conjunto1.getChildren().addAll(combo1);
 
 		// CBOX DEL CONJUNTO2
+		tf1 = new TextField("0");
+		tf1.setPrefColumnCount(2);
+		tf1.setMaxWidth(100);
+		tf1.setAlignment(Pos.CENTER);
+
+		tf2 = new TextField("0");
+		tf2.setPrefColumnCount(2);
+		tf2.setMaxWidth(100);
+		tf2.setAlignment(Pos.CENTER);
+
+		tf3 = new TextField("0");
+		tf3.setPrefColumnCount(2);
+		tf3.setMaxWidth(100);
+		tf3.setAlignment(Pos.CENTER);
+
+		tf4 = new TextField("0");
+		tf4.setPrefColumnCount(2);
+		tf4.setMaxWidth(100);
+		tf4.setAlignment(Pos.CENTER);
+
+		tf5 = new TextField("0");
+		tf5.setPrefColumnCount(2);
+		tf5.setMaxWidth(100);
+		tf5.setAlignment(Pos.CENTER);
+		tf5.setDisable(true);
+
+		tf6 = new TextField("0");
+		tf6.setPrefColumnCount(2);
+		tf6.setMaxWidth(100);
+		tf6.setAlignment(Pos.CENTER);
+		tf6.setDisable(true);
+
 		HBox caja1 = new HBox();
 		caja1.setSpacing(5);
 		caja1.setAlignment(Pos.CENTER);
@@ -104,6 +136,8 @@ public class CalculadoraCompleja extends Application {
 		conjunto2.getChildren().addAll(caja1, caja2, separador, caja3);
 
 		// CBOX CONJUNTO3
+		btIgual = new Button("=");
+
 		VBox conjunto3 = new VBox();
 		conjunto3.setSpacing(5);
 		conjunto3.setAlignment(Pos.CENTER_RIGHT);
